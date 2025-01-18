@@ -23,16 +23,18 @@ Customizable Warehouses: Easily define puzzle configurations through plain text 
 ## Project Structure
 The project comprises three primary components:
 
-1. search.py
+### 1. search.py
 Defines the search algorithms used to solve Sokoban puzzles, including breadth-first search, depth-first search, and other heuristic methods. This file serves as the backbone for exploring and navigating the state space of the puzzle.
 
-2. sokoban.py
+### 2. sokoban.py
 Implements the Sokoban problem class and related functions:
 
-Defines the state representation (agent and box positions).
+### 3. solver.py
+Implement the solver and related functions
 Handles state transitions based on elemental or macro actions.
 Contains the find_taboo_cells function to identify invalid box positions.
-3. Warehouse Files
+
+### Warehouse Files
 Warehouse configurations are stored in plain text files, with each file representing a Sokoban puzzle. A typical file contains walls, boxes, goals, and the agent's initial position.
 
 Example Warehouse File:
