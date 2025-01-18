@@ -4,8 +4,7 @@ import operator
 import functools
 '''
 
-This module defines utility functions and classes for a sokoban assignment.
-
+This module defines utility functions and classes.
 The main class is the Wareshouse class.
 An instance of this class can read a text file coding a Sokoban puzzle,
 and  store information about the positions of the walls, boxes and targets 
